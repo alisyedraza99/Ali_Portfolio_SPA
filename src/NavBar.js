@@ -18,6 +18,7 @@ class NavBar extends Component {
     document.getElementById("id01").style.display = "none";
   }
   componentDidMount() {
+    document.title = "Ali Syed Raza | Software Engineer";
     var form = document.getElementById("id01");
     window.onclick = e => {
       if (e.target === form) {
