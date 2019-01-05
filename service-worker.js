@@ -14,7 +14,7 @@
 importScripts("https://storage.googleapis.com/workbox-cdn/releases/3.6.3/workbox-sw.js");
 
 importScripts(
-  "/alisyedraza99/Ali_Portfolio_SPA/precache-manifest.7b5cf2f59474b98f78c4587cf1a4c3f8.js"
+  "/Ali_Portfolio_SPA/precache-manifest.b596243c45bb3dd2fc2959eb44b5657e.js"
 );
 
 workbox.clientsClaim();
@@ -28,7 +28,7 @@ self.__precacheManifest = [].concat(self.__precacheManifest || []);
 workbox.precaching.suppressWarnings();
 workbox.precaching.precacheAndRoute(self.__precacheManifest, {});
 
-workbox.routing.registerNavigationRoute("/alisyedraza99/Ali_Portfolio_SPA/index.html", {
+workbox.routing.registerNavigationRoute("/Ali_Portfolio_SPA/index.html", {
   
   blacklist: [/^\/_/,/\/[^\/]+\.[^\/]+$/],
 });
