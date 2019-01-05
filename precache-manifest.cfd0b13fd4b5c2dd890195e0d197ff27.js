@@ -84,7 +84,7 @@ self.__precacheManifest = [
     "url": "/Ali_Portfolio_SPA/static/media/sample.8ccb4ec4.jpg"
   },
   {
-    "revision": "f35af4b83d0407feeafdf5f12ff61f20",
+    "revision": "34f0c36ec450a1d9cf43695029581614",
     "url": "/Ali_Portfolio_SPA/index.html"
   }
 ];
