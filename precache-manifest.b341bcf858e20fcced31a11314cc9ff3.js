@@ -4,7 +4,7 @@ self.__precacheManifest = [
     "url": "/Ali_Portfolio_SPA/static/media/PortfolioTemplate.5df32c18.png"
   },
   {
-    "revision": "9f8512986fb15213d042",
+    "revision": "ca1ea26ac01b0776a2b6",
     "url": "/Ali_Portfolio_SPA/static/css/main.3fca2ad7.chunk.css"
   },
   {
@@ -44,8 +44,8 @@ self.__precacheManifest = [
     "url": "/Ali_Portfolio_SPA/static/media/PortfolioSPA.7f6dd0cf.png"
   },
   {
-    "revision": "9f8512986fb15213d042",
-    "url": "/Ali_Portfolio_SPA/static/js/main.9f851298.chunk.js"
+    "revision": "ca1ea26ac01b0776a2b6",
+    "url": "/Ali_Portfolio_SPA/static/js/main.ca1ea26a.chunk.js"
   },
   {
     "revision": "8234cab5a4f28f8c5fb4d88eece1edce",
@@ -84,7 +84,7 @@ self.__precacheManifest = [
     "url": "/Ali_Portfolio_SPA/static/media/sample.8ccb4ec4.jpg"
   },
   {
-    "revision": "34f0c36ec450a1d9cf43695029581614",
+    "revision": "c72506d590a09e9a8bad98df0ab15e83",
     "url": "/Ali_Portfolio_SPA/index.html"
   }
 ];
