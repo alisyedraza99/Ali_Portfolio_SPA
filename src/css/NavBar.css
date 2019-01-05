@@ -29,6 +29,9 @@ li button {
   text-decoration: none;
 }
 
+li .gitLink {
+  padding: 0;
+}
 li a:hover:not(.active),
 li button:hover:not(.active) {
   background-color: #111;
@@ -162,13 +165,23 @@ button:hover {
 @media screen and (max-width: 450px) {
   .NavBar li a,
   .NavBar li button {
+    margin-right: 0;
+    margin-left: 0;
     padding: 6px 8px;
-    font-size: 85%;
+    font-size: 80%;
+  }
+  .gitLink {
+    padding-left: 0;
+    padding-right: 0;
+  }
+  .gitLink svg {
+    width: 1.7em;
+    height: 1.7em;
   }
 }
 
 /* Change styles for span and cancel button on extra small screens */
-@media screen and (max-width: 300px) {
+@media screen and (max-width: 350px) {
   span.psw {
     display: block;
     float: none;
@@ -181,5 +194,9 @@ button:hover {
   .NavBar li button {
     padding: 3px 4px;
     font-size: 80%;
+  }
+  .gitLink svg {
+    width: 1.3em;
+    height: 1.3em;
   }
 }

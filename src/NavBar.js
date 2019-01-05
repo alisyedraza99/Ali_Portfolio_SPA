@@ -1,6 +1,7 @@
 import React, { Component } from "react";
 import { Route, NavLink, HashRouter } from "react-router-dom";
 import "./css/NavBar.css";
+import { IoLogoGithub } from "react-icons/io";
 import About from "./About";
 import Portfolio from "./Portfolio";
 import App from "./App";
@@ -44,6 +45,11 @@ class NavBar extends Component {
             </li>
             <li>
               <button onClick={this.openForm}>Contact</button>
+            </li>
+            <li>
+              <a className="gitLink" href="https://github.com/alisyedraza99">
+                <IoLogoGithub className="logo" />
+              </a>
             </li>
           </ul>
 

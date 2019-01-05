@@ -155,7 +155,7 @@ class Portfolio extends Component {
       div.className = "box";
       div.innerHTML = name;
 
-      ReactDOM.render(<img src={project.banner} alt="image" />, div);
+      ReactDOM.render(<img src={project.banner} alt="project banner" />, div);
 
       let overlay = document.createElement("div");
       overlay.className = "overlay";

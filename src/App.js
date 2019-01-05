@@ -32,7 +32,7 @@ class App extends Component {
 
   resetAvatar() {
     if (this.state.avatar !== Ali_Avatar_V1) {
-      this.state.avatar = Ali_Avatar_V1;
+      this.setState({ avatar: Ali_Avatar_V1 });
     }
   }
   changeAvatar() {

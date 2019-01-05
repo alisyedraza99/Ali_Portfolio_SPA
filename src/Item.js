@@ -3,7 +3,6 @@ import ReactDOM from "react-dom";
 import "./css/Item.css";
 import { IoLogoGithub } from "react-icons/io";
 import { IoMdArrowBack } from "react-icons/io";
-import sample from "./images/sample.jpg";
 
 class Item extends Component {
   constructor(props) {
