@@ -1,0 +1,64 @@
+.Item {
+  background: black;
+}
+.Item p {
+  color: white;
+  font-family: "Comfortaa", cursive;
+}
+.Item h1,
+.Item h3 {
+  margin-bottom: 0;
+  color: rgb(167, 83, 170);
+  font-family: "Comfortaa", cursive;
+  text-transform: uppercase;
+  text-emphasis: bold;
+}
+
+.clearfix button {
+  background-color: rgb(167, 83, 170);
+}
+#gitCode {
+  display: block;
+  margin-left: auto;
+  margin-right: auto;
+  width: 40%;
+}
+
+.img2 {
+  transition: all 0.2s ease-in-out;
+  width: 100vw;
+  height: auto;
+}
+
+.img2 :hover {
+  transform: scale(1.3);
+}
+
+.logo {
+  width: 30px;
+  height: auto;
+  vertical-align: middle;
+}
+
+@media screen and (max-width: 500px) {
+  .Item h1 {
+    text-align: center;
+  }
+  #gitCode {
+    display: block;
+    margin-left: auto;
+    margin-right: auto;
+    width: 100%;
+  }
+}
+.Item a {
+  text-decoration: none;
+}
+/* @media screen and (max-width: 330px) {
+  #gitCode {
+    display: block;
+    margin-left: auto;
+    margin-right: auto;
+    width: 0%;
+  }
+} */

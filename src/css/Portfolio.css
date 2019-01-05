@@ -1,0 +1,150 @@
+.Portfolio {
+  background-color: rgb(0, 0, 0);
+}
+
+/* .box {
+  background-color: #444;
+  color: #fff;
+  border-radius: 5px;
+  padding: 20px;
+  font-size: 150%;
+} */
+
+button {
+  background-color: #4caf50; /* Green */
+  border: none;
+  color: white;
+  padding: 15px 32px;
+  text-align: center;
+  text-decoration: none;
+  display: inline-block;
+  font-size: 16px;
+  margin: 4px 2px;
+  cursor: pointer;
+  -webkit-transition-duration: 0.4s; /* Safari */
+  transition-duration: 0.4s;
+}
+/* #wrapper {
+  width: 100%;
+  height: 100%;
+  display: grid;
+  grid-gap: 10px;
+  grid-template-columns: repeat(3, 1fr);
+  grid-template-rows: repeat(6, 1fr);
+  grid-auto-flow: column;
+} */
+
+/*-----------------------------*/
+* {
+  box-sizing: border-box;
+}
+
+/* body {
+  margin: 0;
+  font-family: Arial;
+} */
+
+/* WRAPPER IS ROW */
+#wrapper {
+  display: -ms-flexbox; /* IE10 */
+  display: flex;
+  -ms-flex-wrap: wrap; /* IE10 */
+  flex-wrap: wrap;
+  padding: 0 4px;
+}
+
+/* Create four equal columns that sits next to each other 
+COLUMN IS BOX*/
+.box {
+  overflow: hidden;
+  position: relative;
+  -ms-flex: 50%; /* IE10 */
+  flex: 50%;
+  max-width: 50%;
+  padding: 0 4px;
+}
+
+h2 {
+  color: rgb(255, 255, 255);
+  text-transform: uppercase;
+  text-emphasis: bold;
+  font-size: 20px;
+  position: absolute;
+  top: 50%;
+  left: 50%;
+  -webkit-transform: translate(-50%, -50%);
+  -ms-transform: translate(-50%, -50%);
+  transform: translate(-50%, -50%);
+  text-align: center;
+  /* color: white;
+  text-align: center;
+  text-transform: uppercase;
+  font-size: 20px;
+  position: relative;
+  top: -50%;
+  left: 50%;
+  -webkit-transform: translate(-50%, -50%);
+  -ms-transform: translate(-50%, -50%);
+  transform: translate(-50%, -50%); */
+}
+
+.overlay {
+  position: absolute;
+  bottom: 0;
+  left: 0;
+  right: 0;
+  background-color: #50044a65;
+  overflow: hidden;
+  width: 100%;
+  height: 100%;
+  -webkit-transform: scale(0);
+  -ms-transform: scale(0);
+  transform: scale(0);
+  -webkit-transition: 0.3s ease;
+  transition: 0.3s ease;
+}
+
+.box :hover {
+  cursor: pointer;
+}
+
+.box:hover h2 {
+  text-decoration: line-through;
+}
+
+.box:hover .overlay {
+  -webkit-transform: scale(1);
+  -ms-transform: scale(1);
+  transform: scale(1);
+}
+
+.box:hover img {
+  -webkit-filter: blur(3px); /* Safari 6.0 - 9.0 */
+  filter: blur(3px);
+  transform: scale(1.1);
+}
+.box img {
+  transition: all 0.2s ease-in-out;
+  width: 100%;
+  height: 100%;
+  margin-top: 8px;
+  vertical-align: middle;
+}
+
+/* Responsive layout - makes a two column-layout instead of four columns */
+@media screen and (max-width: 800px) {
+  .box {
+    -ms-flex: 50%;
+    flex: 50%;
+    max-width: 50%;
+  }
+}
+
+/* Responsive layout - makes the two columns stack on top of each other instead of next to each other */
+@media screen and (max-width: 600px) {
+  .box {
+    -ms-flex: 100%;
+    flex: 100%;
+    max-width: 100%;
+  }
+}
