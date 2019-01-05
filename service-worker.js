@@ -14,7 +14,7 @@
 importScripts("https://storage.googleapis.com/workbox-cdn/releases/3.6.3/workbox-sw.js");
 
 importScripts(
-  "/Ali_Portfolio_SPA/precache-manifest.b341bcf858e20fcced31a11314cc9ff3.js"
+  "/Ali_Portfolio_SPA/precache-manifest.dcc208a480498301fa55c6b5466bbfc9.js"
 );
 
 workbox.clientsClaim();

@@ -1,15 +1,15 @@
 self.__precacheManifest = [
   {
-    "revision": "5df32c1880220d820e61411d5ce10345",
-    "url": "/Ali_Portfolio_SPA/static/media/PortfolioTemplate.5df32c18.png"
+    "revision": "7f6dd0cfbe6cefa62ef31b6075024168",
+    "url": "/Ali_Portfolio_SPA/static/media/PortfolioSPA.7f6dd0cf.png"
   },
   {
-    "revision": "ca1ea26ac01b0776a2b6",
-    "url": "/Ali_Portfolio_SPA/static/css/main.3fca2ad7.chunk.css"
+    "revision": "59f281c798597dcb39fc",
+    "url": "/Ali_Portfolio_SPA/static/css/main.5b81389e.chunk.css"
   },
   {
-    "revision": "a661b176068a6fed02f6",
-    "url": "/Ali_Portfolio_SPA/static/js/1.a661b176.chunk.js"
+    "revision": "492b96d2f1126af5c8e3",
+    "url": "/Ali_Portfolio_SPA/static/js/1.492b96d2.chunk.js"
   },
   {
     "revision": "52c64239f77d861a0d52",
@@ -40,12 +40,12 @@ self.__precacheManifest = [
     "url": "/Ali_Portfolio_SPA/static/media/MoleGenVR.67ea0215.png"
   },
   {
-    "revision": "7f6dd0cfbe6cefa62ef31b6075024168",
-    "url": "/Ali_Portfolio_SPA/static/media/PortfolioSPA.7f6dd0cf.png"
+    "revision": "59f281c798597dcb39fc",
+    "url": "/Ali_Portfolio_SPA/static/js/main.59f281c7.chunk.js"
   },
   {
-    "revision": "ca1ea26ac01b0776a2b6",
-    "url": "/Ali_Portfolio_SPA/static/js/main.ca1ea26a.chunk.js"
+    "revision": "5df32c1880220d820e61411d5ce10345",
+    "url": "/Ali_Portfolio_SPA/static/media/PortfolioTemplate.5df32c18.png"
   },
   {
     "revision": "8234cab5a4f28f8c5fb4d88eece1edce",
@@ -80,11 +80,7 @@ self.__precacheManifest = [
     "url": "/Ali_Portfolio_SPA/static/media/Ali_Avatar_Soccer.43599252.svg"
   },
   {
-    "revision": "8ccb4ec4225b290726ae9be975220ff4",
-    "url": "/Ali_Portfolio_SPA/static/media/sample.8ccb4ec4.jpg"
-  },
-  {
-    "revision": "c72506d590a09e9a8bad98df0ab15e83",
+    "revision": "4ebcdaaa3459616014ecffb67ae519cf",
     "url": "/Ali_Portfolio_SPA/index.html"
   }
 ];
