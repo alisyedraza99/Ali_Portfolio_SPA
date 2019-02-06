@@ -1,7 +1,7 @@
 {
   "name": "ali_portfolio",
   "version": "0.1.0",
-  "homepage": "https://alisyedraza99.github.io/Ali_Portfolio_SPA",
+  "homepage": "https://alisyedraza99.github.io/ali_portfolio_spa",
   "private": true,
   "dependencies": {
     "animejs": "^2.2.0",
