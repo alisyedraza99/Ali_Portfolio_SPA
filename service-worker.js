@@ -14,7 +14,7 @@
 importScripts("https://storage.googleapis.com/workbox-cdn/releases/3.6.3/workbox-sw.js");
 
 importScripts(
-  "/Ali_Portfolio_SPA/precache-manifest.dcc208a480498301fa55c6b5466bbfc9.js"
+  "/ali_portfolio_spa/precache-manifest.43266218e21ca21dff2246c820ddfc25.js"
 );
 
 workbox.clientsClaim();
@@ -28,7 +28,7 @@ self.__precacheManifest = [].concat(self.__precacheManifest || []);
 workbox.precaching.suppressWarnings();
 workbox.precaching.precacheAndRoute(self.__precacheManifest, {});
 
-workbox.routing.registerNavigationRoute("/Ali_Portfolio_SPA/index.html", {
+workbox.routing.registerNavigationRoute("/ali_portfolio_spa/index.html", {
   
   blacklist: [/^\/_/,/\/[^\/]+\.[^\/]+$/],
 });
